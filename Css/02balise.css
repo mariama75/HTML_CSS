@@ -1,0 +1,36 @@
+/*commentaire*/
+
+*{
+    text-align: right;
+}
+ body {
+     background:#b3dbf5;
+ }
+
+ hearder {
+     background-color: #900c3f;
+     color: #fff;
+     height: (500px;
+ }
+ 
+ nav{
+     background-color: #daf6;
+     height: 500px;
+     background-color: #daf7a6;
+ }
+
+ section{
+     background-color: #daf7a6;
+     height: 500px;
+ }
+
+ article {
+     background-color: #daf7a6;
+     height: 500px;
+ }
+
+ nav,
+ footer{
+
+color: #9FFFFA;
+ }

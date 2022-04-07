@@ -1,0 +1,12 @@
+label{
+    float: left;
+    width: 190px;
+    color: blue;
+    background-color: lightgrey;
+}
+div{
+    background-color: lightsalmon;
+}
+body{
+    background-color: lightseagreen;
+}
