@@ -1,0 +1,28 @@
+.boite-g{
+    height: 100px;
+    width: 100px;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color: yellowgreen;
+    border-radius: 60px;
+    
+}
+.clear{
+    clear: both;
+}
+.boite-p{
+    height: 100px;
+    width: 100px;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color: purple;
+    border-radius: 60px;
+}
