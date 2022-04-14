@@ -1,0 +1,123 @@
+.conteneur{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: rgb(251, 249, 252);
+    background-image: url(../img/walpeper.jfif);
+   
+}
+header{
+    background-color:#8e3557;
+    font-size: 25px;
+    text-align: center;
+}
+nav{
+    background-color: orangered;
+    height: 50px;
+    padding-left: 2em;
+    line-height:45px ;
+    text-align: center;
+}
+nav a{
+color: white;
+font-size:20px ;
+/* border: 1px solid white; */
+padding-left: 2em;
+border-right: 1px solid white;
+padding-right:2em ;
+text-decoration: none;
+}
+
+footer{
+    height: 100px;
+    background-color: palevioletred;
+}
+nav a:last-child{
+    border-right:none
+}
+section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+section div {
+    display: flex;
+    height:50vh ;
+    width:32vw ;
+    
+}
+
+.Zone1,.Zone4{
+    background:linear-gradient(to left,#40a497,#6840a4);
+    }
+.Zone2, .Zone3{
+    background-color: #73ADCE;
+}
+main{
+    border:1px solid black;
+}
+.Zone3,.Zone4{
+    margin-top:15px
+}
+
+@media screen and (max-width: 768px){/*j'annonce que la taille de l'ecran est changé*/
+    .conteneur{
+        width: 90%;
+    
+    }
+header{
+    background-color:#568e35;
+}
+section div{
+    width: 80vw;/*chaque div va prendre 80% de l'espace disponible*/
+
+}
+section{
+    flex-direction: column;/*on peut changer laxe principal de flex pour avoir affichage en bloc pour chaque div*/
+    align-items: center;
+}
+nav a{
+    display: block;
+    font-size: 16px;
+    border:none;
+}
+nav{
+    height: 150px;
+    line-height: 30px;
+}
+.Zone2{
+    margin-top: 15px;
+    background-color:orange;
+}
+footer{
+    background-color: #568e35;
+}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+    .conteneur{
+        width: 90%;
+    }
+    section{
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    header{
+        background-color: #d46d19;
+    }
+    footer{
+        background-image: #d46d19;
+    }
+    section div{
+        width:41vw;
+    }
+    .Zone2,.Zone3{
+        background-color: #F479D8;
+        background-image: url("../img/anime2.jfif");
+    }
+    .Zone1,.Zone4{
+        background-image: url("../img/anime.jfif") ;
+        background-size: cover;
+    }
+
+}

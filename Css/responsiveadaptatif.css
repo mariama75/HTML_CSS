@@ -1,0 +1,36 @@
+
+.zone-adaptative{
+    width: 200px;
+    background-color: red;
+    padding:10px
+    
+
+}
+          
+    @media(max-width:1700px){
+        .zone-adaptative {
+                background-color: rgb(26, 30, 247);
+                width:1570px;
+                height: 500px;
+               
+        }
+              
+        }
+
+@media(max-width:1500px){
+.zone-adaptative {
+        background-color: rgb(0, 128, 38);
+        width:1270px;
+       
+}
+      
+}
+
+@media(max-width:1268px){
+    .zone-adaptative {
+            background-color: orange;
+            width:1000px;
+           
+    }
+          
+    }

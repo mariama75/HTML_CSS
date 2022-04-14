@@ -1,0 +1,26 @@
+h1{
+    background-color: wheat;
+    text-align: center;
+    border: 2px solid violet;
+   
+}
+h2{
+
+}
+div{
+    background-color: wheat;
+    text-align: center;
+    border: 1px solid violet;
+
+}
+span{
+    text-align: left;
+}
+p{
+    background-color: wheat;
+    text-align: center;
+    border: 1px solid violet; 
+}
+.gauche{
+    float: left;
+}

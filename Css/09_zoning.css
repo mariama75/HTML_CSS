@@ -1,0 +1,57 @@
+body{
+    color:white;
+    font-size: 25px;
+ }
+.b2{
+    background-color:blue;
+   
+}
+.b{
+    background-color: orange;
+   
+}
+.b3{
+    background-color: rgb(58, 4, 4);
+   
+}
+.b4{
+    background-color: yellow;
+   
+}
+header{
+    background-color: orangered;
+    height: 30px;
+    
+}
+
+nav{
+    background-color: black;
+    height: 30px;
+}
+#conteneur{
+    width: 80%;
+    border: 2px solid darkslategray;
+    margin: auto;
+    padding: 5px;
+}
+section{
+    background-color:burlywood;
+    height: 500px;
+    margin: 1px;
+    padding: 0%;
+}
+
+footer{
+    background-color:grey;
+    height: 80px;
+    text-align: center;
+}
+.b, .b2, .b3, .b4{
+    height: 100px;
+    width:20% ;
+    float: left;
+    border: 2px solid white;
+}
+.clear{
+    clear: both;
+}

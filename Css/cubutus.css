@@ -1,0 +1,117 @@
+.boite-v{
+    height: 10vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color: green;
+    border-radius: 5% 15% 25% 45% ;
+    
+}
+.clear{
+    clear: both;
+}
+.boite-b{
+    height: 10vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color:cyan;
+    border-radius: 25% 0% 25% 0%;
+}
+.boite-bc{
+    height:10vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color:rgb(138,222,206);
+    border-radius: 50%;
+    
+}
+.clear{
+    clear: both;
+}
+.boite-r{
+    height:10vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color:pink;
+    border-radius: 10% 35% 10% 35%;
+}
+.vide{
+    height: 10vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color:white;
+    
+    
+}
+.boite-rg{
+    height: 10vh;
+    width: 8vh;
+    padding: 5vh;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    margin: 2px;
+    float: left;
+    transition: margin0.5s;
+    background-color:red;
+    border-radius: 10% 45% 10% 45%;
+    
+}
+.contenu1{
+    display: flex;
+    flex-direction:column ;
+    justify-content:left ;
+    align-items:left ;
+}
+.contenu2{
+    display: flex;
+    flex-direction:column ;
+    justify-content:center ;
+    align-items:center ; 
+}
+.contenu3{
+    display: flex;
+    flex-direction:row ;
+    justify-content:center ;
+    align-items:center ;
+}
+.contenu4{
+    display: flex;
+    flex-direction:row ;
+    justify-content:center ;
+    align-items:center ;
+}
+.contenu5{
+    display: flex;
+    flex-direction:row ;
+    justify-content:center ;
+    align-items:center ;
+}
+.contenu6{
+    display: flex;
+    flex-direction:row ;
+    justify-content:center ;
+    align-items:center ;
+}
